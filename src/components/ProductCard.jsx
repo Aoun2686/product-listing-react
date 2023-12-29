@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ProductCard = ({ product }) => {
   return (
-    <div className="justify-center items-stretch shadow-md bg-white flex max-w-[828px] flex-col p-9 rounded-3xl max-md:px-5">
+    <div className="justify-center items-stretch shadow-md bg-white flex max-w-[1200px] flex-col p-9 rounded-3xl max-md:px-5">
       <div className="max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
