@@ -1,4 +1,4 @@
-# Product Listing Page with React
+# Product Listing Page with React (Part 1)
 
 This project is a simple product listing page built using React.
 
@@ -12,7 +12,6 @@ This project is a simple product listing page built using React.
 ## Usage
 
 - Open the browser and go to <http://localhost:3000>.
-- View the product listing and click on a product card to see detailed information.
 
 ## Mock Data
 
