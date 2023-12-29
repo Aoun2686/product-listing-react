@@ -60,7 +60,7 @@ const ProductCard = ({ product }) => {
                 <div className="text-slate-900 py-5 text-2xl font-semibold leading-7 grow shrink basis-auto">
                   {product.name}
                 </div>
-                <div className="justify-center items-center bg-gray-50 self-stretch flex aspect-square flex-col w-[60px] h-[60px] px-5 rounded-lg">
+                <div className="justify-center items-center bg-gray-50 self-stretch flex aspect-square flex-col  px-5 rounded-lg">
                   <img
                     src="/assets/favourite.png"
                     alt="favourtie"
@@ -112,7 +112,7 @@ const ProductCard = ({ product }) => {
                     {product.price}
                   </div>
                 </div>
-                <div className="justify-center items-center bg-gray-50 flex aspect-square flex-col w-[60px] h-[60px] px-5 rounded-lg">
+                <div className="justify-center items-center bg-gray-50 flex aspect-square flex-col  px-5 rounded-lg">
                   <img
                     src="/assets/addToCart.png"
                     alt="addToCart"
@@ -162,7 +162,7 @@ const ProductCard = ({ product }) => {
                 </div>
               </div>
               <div className="bg-zinc-100 shrink-0 h-px mt-5" />
-              <Link to={`/product/${product.id}`}>
+              <Link to={`/product/${product.id}`} className="no-underline">
                 <div className="text-white text-center text-lg font-semibold leading-6 whitespace-nowrap justify-center items-center border border-[color:var(--Foundation-Red-red-500,#C62A1C)] shadow-sm bg-red-700 mt-5 px-16 py-3.5 rounded-xl border-solid max-md:px-5">
                   Buy now
                 </div>
