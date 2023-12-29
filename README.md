@@ -13,3 +13,7 @@ This project is a simple product listing page built using React.
 
 - Open the browser and go to <http://localhost:3000>.
 - View the product listing and click on a product card to see detailed information.
+
+## Mock Data
+
+Product data is mocked in the `productsData.js` file. You can replace it with real data when integrating with a backend.
